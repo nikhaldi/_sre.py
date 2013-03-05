@@ -1,0 +1,8 @@
+# Include meta files on distribution root
+include *.txt
+include *.md
+include run_tests.py
+include time_sre.py
+
+# Include everything test
+recursive-include test *.py
